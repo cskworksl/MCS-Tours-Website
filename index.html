@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCS Tours | Luxury & Comfort Travel Partner in Sri Lanka</title>
+    <meta name="description" content="Experience comfort and luxury on wheels with MCS Tours. Your trusted travel partner in Sri Lanka starting from Seeduwa, Katunayake, Gampaha. Book your ride via WhatsApp.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">MCS</span> TOURS
+            </a>
+            <button class="mobile-nav-toggle" aria-label="Toggle menu" id="mobileMenuBtn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">Service Area</a>
+                <a href="#services" class="nav-link">Our Services</a>
+                <a href="#fleet" class="nav-link">Our Fleet</a>
+                <a href="#estimator" class="nav-link">Fare Estimator</a>
+                <a href="#faq" class="nav-link">Policies</a>
+                <a href="https://wa.me/94772311633?text=Hi%20MCS%20Tours,%20I%20want%20to%20book%20a%20hire" target="_blank" class="nav-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="wa-icon-nav"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                    Book via WhatsApp
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge-premium">
+                    <span class="badge-icon">★</span> Premium Travel Partner
+                </div>
+                <h1 class="hero-title">Your Trusted Travel Partner in Sri Lanka</h1>
+                <p class="hero-tagline">Experience ultimate comfort &amp; luxury on wheels with MCS TOURS.</p>
+                <div class="hero-cta-wrapper">
+                    <a href="https://wa.me/94772311633?text=Hi%20MCS%20Tours,%20I%20want%20to%20book%20a%20hire" target="_blank" class="btn-primary" id="mainHeroCta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="wa-icon"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                        Book Your Ride via WhatsApp
+                    </a>
+                </div>
+                
+                <!-- Quick Info Metrics -->
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🛡️</span>
+                        <span class="feature-text">Safe &amp; Secure Tours</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">⚡</span>
+                        <span class="feature-text">24/7 Prompt Support</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🚐</span>
+                        <span class="feature-text">Clean &amp; Luxury Fleet</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👨‍✈️</span>
+                        <span class="feature-text">Experienced Drivers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wave-separator">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C900.67,44.77,817.89,2.44,720.08,12.2c-98.24,9.8-191.8,70.6-281,87.6-90,17.2-180.7-2.4-269.8-21.3L0,64.33V120H1200V1.58C1123.63,22.75,1067.8,139.06,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Service Area / About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="grid-2">
+                <div class="about-content">
+                    <h4 class="section-subtitle">Our Hub</h4>
+                    <h2 class="section-title">Where We Start Our Journeys</h2>
+                    <p class="about-text">
+                        Our main operations hub is located around <strong>Seeduwa</strong>, <strong>Katunayake</strong>, and the <strong>Gampaha District</strong>.
+                    </p>
+                    <p class="about-text">
+                        Whether you are arriving at the Bandaranaike International Airport (BIA) or reside in Gampaha, we pick you up and safely transport you to <strong>any destination in Sri Lanka</strong>.
+                    </p>
+                    <div class="card-hub">
+                        <div class="hub-item">
+                            <span class="hub-dot"></span>
+                            <div>
+                                <h5>Seeduwa / Katunayake</h5>
+                                <p>Immediate pickups near the Airport</p>
+                            </div>
+                        </div>
+                        <div class="hub-item">
+                            <span class="hub-dot"></span>
+                            <div>
+                                <h5>Gampaha District</h5>
+                                <p>Broad service starting zone</p>
+                            </div>
+                        </div>
+                        <div class="hub-item">
+                            <span class="hub-dot highlight-dot"></span>
+                            <div>
+                                <h5>Islandwide Drops</h5>
+                                <p>Safe transport to any point in Sri Lanka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive SVG Sri Lanka Map -->
+                <div class="map-container">
+                    <div class="map-card">
+                        <div class="map-header">
+                            <span class="map-dot-active"></span> Service Starting Hub Highlighted
+                        </div>
+                        <div class="map-svg-wrapper" id="srilankaMap">
+                            <!-- Custom SVG representing Sri Lanka & Highlighted Gampaha -->
+                            <svg viewBox="0 0 320 600" class="lk-map-svg">
+                                <defs>
+                                    <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+                                        <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.6"/>
+                                        <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+                                    </radialGradient>
+                                </defs>
+                                <!-- Basic elegant outline shape of Sri Lanka -->
+                                <path class="lk-island" d="M125 15C135 12 150 20 155 35C158 45 158 55 163 65C170 75 185 85 190 98C195 110 205 120 215 132C225 145 238 160 248 180C255 195 260 210 263 230C266 250 270 270 270 290C270 315 268 340 260 365C252 390 240 415 230 435C222 450 210 465 200 480C190 495 180 505 170 515C160 525 140 535 125 540C110 545 95 545 80 530C70 520 65 505 60 490C55 475 52 460 50 440C48 420 45 400 45 380C45 360 48 340 50 320C52 300 55 285 57 265C60 245 65 225 72 205C80 185 90 165 98 145C104 130 110 115 115 100C120 85 120 70 120 55C120 40 121 25 125 15Z" />
+                                
+                                <!-- Highlighted Gampaha District Region (Approx position) -->
+                                <path class="lk-district gampaha active-district" d="M78 300C88 298 98 300 102 308C106 316 100 326 95 330C88 335 76 332 72 324C68 316 72 302 78 300Z" />
+                                
+                                <!-- Hub Pulsing Circle -->
+                                <circle cx="85" cy="315" r="22" class="hub-glow-circle" fill="url(#hubGlow)" />
+                                <circle cx="85" cy="315" r="6" class="hub-core-circle" />
+                                <circle cx="85" cy="315" r="12" class="hub-pulse" />
+
+                                <!-- Marker label -->
+                                <g transform="translate(100, 315)">
+                                    <rect x="0" y="-18" width="130" height="36" rx="8" class="map-label-bg" />
+                                    <text x="12" y="4" class="map-label-text">Seeduwa Hub</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="map-footer-text">
+                            * We pick you up anywhere in Gampaha/Katunayake and take you to Colombo, Kandy, Galle, Sigiriya, or any tourist spot.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-header-center">
+                <h4 class="section-subtitle">Expertise</h4>
+                <h2 class="section-title">Our Premium Services</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="services-grid">
+                <!-- Point-to-Point -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="service-icon"><path fill="currentColor" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/></svg>
+                    </div>
+                    <h3>Point-to-Point Rides</h3>
+                    <p>Safe, prompt, and direct transport from one location to another. Enjoy peace of mind and convenience on your short or long commutes.</p>
+                </div>
+
+                <!-- Airport drops -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="service-icon"><path fill="currentColor" d="M381 114.9L186.1 41.8c-16.7-6.2-35.2 2.5-41.5 19L117.2 133 32 101.2 16 144l89.6 33.6-28.5 76c-3.1 8.4-.7 17.8 5.9 23.8l23.5 21.4c6.6 6 16.1 7.2 23.9 3.2L558.1 106.8c12.6-6.4 20.4-19.4 20.4-33.5V64c0-17.7-14.3-32-32-32h-17.6c-13.4 0-26.2 5.5-35.4 15.2L381 114.9zM32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32h576c17.7 0 32-14.3 32-32s-14.3-32-32-32H32z"/></svg>
+                    </div>
+                    <h3>Airport Pickups &amp; Drops</h3>
+                    <p>Stress-free transport to and from Katunayake Bandaranaike Airport (BIA). We monitor your flights to ensure timely pick-up, day or night.</p>
+                </div>
+
+                <!-- Wedding Hires -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="service-icon"><path fill="currentColor" d="M225.8 468.2l-2.5-2.3L48.1 302.2C17.1 274.4 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c7.6-8.5 16-15.9 25-22.3c32.2-22.6 72.4-31.7 111.7-24C462 58.9 512 119.2 512 189.5v3.3c0 41.9-17.1 81.6-48.1 109.4L288.7 465.9l-2.5 2.3c-8.2 7.6-20.8 7.6-29 0z"/></svg>
+                    </div>
+                    <h3>Wedding Hires</h3>
+                    <p>Make your special day elegant and memorable. Select from our luxury fleet to arrive in style, luxury, and comfort.</p>
+                </div>
+
+                <!-- Corporate Hires -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="service-icon"><path fill="currentColor" d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM64 160h384V288c0 17.7-14.3 32-32 32H384c-17.7 0-32 14.3-32 32s14.3 32 32 32h32v48H64V160z"/></svg>
+                    </div>
+                    <h3>Corporate Hires</h3>
+                    <p>Professional travel solutions for corporate events, business conferences, executive transportation, and official tours in Sri Lanka.</p>
+                </div>
+
+                <!-- Multi-Day Tours -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="service-icon"><path fill="currentColor" d="M384 476.1L272.4 420.3c-10.4-5.2-22.4-5.2-32.8 0L128 476.1V288c0-17.7 14.3-32 32-32h224v220.1zm32-252.1V128H48C21.5 128 0 149.5 0 176v240c0 26.5 21.5 48 48 48h48v-80c0-35.3 28.7-64 64-64h224c15.1 0 28.9 5.2 39.9 14l120.1-60c7.8-3.9 12.7-11.9 12.7-20.7V83.6c0-11.9-12.1-19.1-22.4-13.1L384 128V96c0-17.7-14.3-32-32-32H160C142.3 64 128 78.3 128 96v32h256v96z"/></svg>
+                    </div>
+                    <h3>Multi-Day Tours</h3>
+                    <p>Embark on custom long-distance tours around Sri Lanka. Enjoy the journey with our professional, friendly, and experienced tour drivers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vehicle Fleet Section -->
+    <section id="fleet" class="section fleet-section">
+        <div class="container">
+            <div class="section-header-center">
+                <h4 class="section-subtitle">Our Rides</h4>
+                <h2 class="section-title">The MCS Fleet</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <!-- Category Filter Tabs -->
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All Fleet</button>
+                <button class="filter-tab" data-filter="sedan">Sedan / Hatchback</button>
+                <button class="filter-tab" data-filter="vans">Vans</button>
+                <button class="filter-tab" data-filter="luxury">Luxury SUV</button>
+                <button class="filter-tab" data-filter="buses">Tourist Coaches</button>
+            </div>
+
+            <!-- Fleet Grid -->
+            <div class="fleet-grid">
+                <!-- Sedan -->
+                <div class="fleet-card" data-category="sedan">
+                    <div class="fleet-img-wrapper">
+                        <img src="assets/honda_fit_shuttle.png" alt="Honda Fit Shuttle GP2" class="fleet-img">
+                        <div class="fleet-tag">Sedan / Hatchback</div>
+                    </div>
+                    <div class="fleet-body">
+                        <h3>Honda Fit Shuttle (GP2)</h3>
+                        <p class="fleet-desc">Extremely reliable and fuel-efficient vehicle, ideal for budget-friendly city or highway rides.</p>
+                        <ul class="fleet-features">
+                            <li><span>❄️</span> Air Conditioning</li>
+                            <li><span>👥</span> 4 Passengers Max</li>
+                            <li><span>💼</span> Moderate Luggage Space</li>
+                            <li><span>✨</span> Premium Comfort Seats</li>
+                        </ul>
+                        <div class="fleet-footer">
+                            <div class="fleet-price">
+                                <span class="price-val">Rs. 120</span> <span class="price-unit">/ KM</span>
+                            </div>
+                            <a href="https://wa.me/94772311633?text=Hi%20MCS%20Tours,%20I%20want%20to%20book%20a%20Honda%20Fit%20Shuttle" target="_blank" class="btn-card-cta">
+                                Book Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Van -->
+                <div class="fleet-card" data-category="vans">
+                    <div class="fleet-img-wrapper">
+                        <img src="assets/toyota_hiace_kdh.png" alt="Toyota Hiace KDH" class="fleet-img">
+                        <div class="fleet-tag font-van">Vans</div>
+                    </div>
+                    <div class="fleet-body">
+                        <h3>Toyota Hiace KDH</h3>
+                        <p class="fleet-desc">Super Long &amp; High Roof model. Perfect for medium families, travel groups, and airport runs with heavy luggage.</p>
+                        <ul class="fleet-features">
+                            <li><span>❄️</span> Dual Air Conditioning</li>
+                            <li><span>👥</span> 10 - 14 Passengers</li>
+                            <li><span>💺</span> Adjustable &amp; Reclining Seats</li>
+                            <li><span>💼</span> Large Luggage Space</li>
+                        </ul>
+                        <div class="fleet-footer">
+                            <div class="fleet-price">
+                                <span class="price-custom">On Query</span>
+                            </div>
+                            <a href="https://wa.me/94772311633?text=Hi%20MCS%20Tours,%20I%20want%20to%20book%20a%20Toyota%20Hiace%20KDH%20Van" target="_blank" class="btn-card-cta">
+                                Book Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Luxury -->
+                <div class="fleet-card" data-category="luxury">
+                    <div class="fleet-img-wrapper">
+                        <img src="assets/luxury_suv.png" alt="Luxury SUV Prado" class="fleet-img">
+                        <div class="fleet-tag font-luxury">Luxury</div>
+                    </div>
+                    <div class="fleet-body">
+                        <h3>Luxury Cars &amp; SUVs</h3>
+                        <p class="fleet-desc">Premium luxury SUVs (Toyota Prado/Montero) or VIP cars. Tailored for wedding hires, executive rides, and VIP travel.</p>
+                        <ul class="fleet-features">
+                            <li><span>✨</span> Ultimate Luxury Cabin</li>
+                            <li><span>❄️</span> Dual-Zone Climate Control</li>
+                            <li><span>👥</span> 4 Passengers Max</li>
+                            <li><span>🚀</span> Superior Road Comfort</li>
+                        </ul>
+                        <div class="fleet-footer">
+                            <div class="fleet-price">
+                                <span class="price-custom">On Query</span>
+                            </div>
+                            <a href="https://wa.me/94772311633?text=Hi%20MCS%20Tours,%20I%20want%20to%20book%20a%20Luxury%20SUV%20/%20Car" target="_blank" class="btn-card-cta">
+                                Book Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buses -->
+                <div class="fleet-card" data-category="buses">
+                    <div class="fleet-img-wrapper">
+                        <img src="assets/tourist_coach.png" alt="Tourist Coach Bus" class="fleet-img">
+                        <div class="fleet-tag font-bus">Tourist Coach</div>
+                    </div>
+                    <div class="fleet-body">
+                        <h3>Tourist Coaches</h3>
+                        <p class="fleet-desc">Spacious and comfortable tourist buses. Best suited for large corporate trips, pilgrimages, and group excursions.</p>
+                        <ul class="fleet-features">
+                            <li><span>❄️</span> Full Air Conditioning</li>
+                            <li><span>👥</span> 29 - 45 Seating Capacity</li>
+                            <li><span>🎵</span> Audio/Video System</li>
+                            <li><span>🧳</span> Under-bus Luggage Bay</li>
+                        </ul>
+                        <div class="fleet-footer">
+                            <div class="fleet-price">
+                                <span class="price-custom">On Query</span>
+                            </div>
+                            <a href="https://wa.me/94772311633?text=Hi%20MCS%20Tours,%20I%20want%20to%20book%20a%20Tourist%20Coach%20Bus" target="_blank" class="btn-card-cta">
+                                Book Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Calculator Section -->
+    <section id="estimator" class="section estimator-section">
+        <div class="container container-small">
+            <div class="section-header-center">
+                <h4 class="section-subtitle">Interactive Tool</h4>
+                <h2 class="section-title">Estimated Fare Calculator</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="calculator-card">
+                <form id="calcForm">
+                    <div class="form-group">
+                        <label for="vehicleSelect">Select Vehicle Category</label>
+                        <select id="vehicleSelect" required>
+                            <option value="sedan" data-rate="120">Sedan / Hatchback (Rs. 120 / KM)</option>
+                            <option value="vans" data-rate="custom">Van (Toyota Hiace KDH) - Custom Rates</option>
+                            <option value="luxury" data-rate="custom">Luxury Cars / SUVs - Custom Rates</option>
+                            <option value="buses" data-rate="custom">Buses / Coaches - Custom Rates</option>
+                        </select>
+                    </div>
+
+                    <div class="grid-form-2">
+                        <div class="form-group">
+                            <label for="distanceInput">Approximate Distance (KM)</label>
+                            <input type="number" id="distanceInput" min="1" placeholder="e.g. 150" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="tripType">Trip Type</label>
+                            <select id="tripType">
+                                <option value="one-way">One-Way</option>
+                                <option value="round-trip">Round-Trip</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-calc">Calculate Estimated Fare</button>
+                </form>
+
+                <!-- Results Display Area -->
+                <div class="calc-result" id="calcResult">
+                    <div class="result-divider"></div>
+                    <div class="result-row">
+                        <span class="result-label">Vehicle Selected:</span>
+                        <span class="result-val" id="resVehicle">Sedan / Hatchback</span>
+                    </div>
+                    <div class="result-row">
+                        <span class="result-label">Distance:</span>
+                        <span class="result-val" id="resDistance">150 KM (One-Way)</span>
+                    </div>
+                    <div class="result-row total-row">
+                        <span class="result-label">Estimated Fare:</span>
+                        <span class="result-price" id="resPrice">Rs. 18,000*</span>
+                    </div>
+                    <p class="calc-disclaimer" id="calcDisclaimer">
+                        * Distance-based rate calculation only. Night accommodation charges and driver's bata will be calculated separately on a per-night basis.
+                    </p>
+                    <a href="#" target="_blank" class="btn-whatsapp-calc" id="whatsappCalcBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="wa-icon"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                        Send Inquiry to WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking & Payment Policies (FAQ) Section -->
+    <section id="faq" class="section faq-section">
+        <div class="container">
+            <div class="section-header-center">
+                <h4 class="section-subtitle">Transparency</h4>
+                <h2 class="section-title">Booking &amp; Payment Policies</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="faq-accordion-wrapper">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <button class="faq-trigger">
+                        <span>How can I book a ride?</span>
+                        <span class="faq-icon-indicator">+</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>Booking is very simple! You can click any of the WhatsApp buttons on our website. This will direct you to a WhatsApp chat with us, pre-filled with your enquiry. We will confirm availability and secure your booking immediately.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <button class="faq-trigger">
+                        <span>What are the payment options?</span>
+                        <span class="faq-icon-indicator">+</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>We accept bank transfers (direct deposit) and cash payments. You can pay via bank transfer to confirm the booking or pay in cash at the start/end of the tour.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <button class="faq-trigger">
+                        <span>Do I need to pay the full amount in advance?</span>
+                        <span class="faq-icon-indicator">+</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>No, you do not need to pay the full amount in advance. To secure and guarantee your booking, a reasonable advance payment is sufficient. The remaining balance can be settled later.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <button class="faq-trigger">
+                        <span>What is your cancellation and refund policy?</span>
+                        <span class="faq-icon-indicator">+</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>We understand that travel plans can change. If you have to cancel your tour for any reason, we offer a flexible cancellation policy with a 100% refund of your advance payment.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item">
+                    <button class="faq-trigger">
+                        <span>How are driver's bata and night stay charges calculated?</span>
+                        <span class="faq-icon-indicator">+</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>For multi-day and overnight hires, driver's bata (allowances) and accommodation charges are calculated on a per-night basis depending on the destination. Please discuss this with us when booking to get a transparent breakdown.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3 class="footer-logo"><span class="logo-accent">MCS</span> TOURS</h3>
+                    <p class="footer-tagline-text">Travel with MCS – Experience comfort &amp; luxury on wheels. Your premium and trusted tour partner in Sri Lanka.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M80 299.3V256H12v-54.7h68v-43c0-67 40.8-103.5 100.5-103.5 28.6 0 53.3 2.1 60.5 3v70h-41.5c-32.5 0-38.8 15.4-38.8 38.1v49.9h77.6L238 256h-67.4v243.2H80z"/></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2s34.4-58 36.2-93.9c2.1-37 2.1-147.8 0-184.8zM402.4 397.6c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Service Area</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#fleet">Our Fleet</a></li>
+                        <li><a href="#estimator">Fare Estimator</a></li>
+                        <li><a href="#faq">Policies</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span class="contact-text">Seeduwa / Katunayake, Sri Lanka</span>
+                    </p>
+                    <p class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span class="contact-text">077 231 1633 / 076 790 1481</span>
+                    </p>
+                    <p class="contact-item">
+                        <span class="contact-icon">💬</span>
+                        <span class="contact-text">WhatsApp: 077 231 1633</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 MCS TOURS. All Rights Reserved. Designed for premium comfort.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action Button -->
+    <a href="https://wa.me/94772311633?text=Hi%20MCS%20Tours,%20I%20want%20to%20book%20a%20hire" target="_blank" class="whatsapp-floating-btn" aria-label="Chat on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="wa-float-icon"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+        <span class="btn-pulse-ring"></span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
